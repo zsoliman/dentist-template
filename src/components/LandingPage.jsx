@@ -34,17 +34,17 @@ const LandingPage = () => {
         <div className="landing-image">
           <div>Image Placeholder</div>
         </div>
-      </div>
 
-      <div className="landing-text">
-        <div>
-          <h2>Service #2</h2>
-          <h4>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-            dicta fugiat autem inventore, at aspernatur pariatur fuga quaerat
-            omnis, asperiores veritatis distinctio quo. Mollitia non ratione
-            ipsum accusantium enim eius.
-          </h4>
+        <div className="landing-text">
+          <div>
+            <h2>Service #2</h2>
+            <h4>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+              dicta fugiat autem inventore, at aspernatur pariatur fuga quaerat
+              omnis, asperiores veritatis distinctio quo. Mollitia non ratione
+              ipsum accusantium enim eius.
+            </h4>
+          </div>
         </div>
       </div>
     </div>

@@ -1,11 +1,11 @@
 import "./App.css";
 import LandingPage from "./components/LandingPage";
-import Navbar from "./components/Navbar";
+import Navigation from "./components/Navigation";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <Navigation />
       <LandingPage />
     </div>
   );
