@@ -6,10 +6,33 @@
   display: flex;
 }
 
+.landing-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  width: 40vw;
+  border: 1px solid black;
+}
+
+.landing-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  width: 60vw;
+  border: 1px solid black;
+}
+
+.logo {
+  margin-right: 20vw;
+}
+
 .navbar {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   background-color: rgb(227, 227, 227);
-  height: 5vh;
+  height: 7vh;
 }
