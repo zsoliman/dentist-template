@@ -4,7 +4,17 @@ import { Navbar, Nav } from "rsuite";
 
 const Navigation = () => {
   return (
-    <Navbar>
+    <Navbar style={{
+      padding: '0 5vw',
+      backgroundColor: 'white',
+      position: 'fixed',
+      width: '100vw',
+      height: '8vh',
+      display: 'flex',
+      alignItems: 'center',
+      opacity: '95%',
+      fontSize: 'large'
+    }}>
       <Navbar.Brand href="/">OFFICE LOGO</Navbar.Brand>
       <Nav>
         <Nav.Item>Home</Nav.Item>

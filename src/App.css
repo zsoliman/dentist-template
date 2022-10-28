@@ -12,10 +12,11 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  /* padding: 0 5vw; */
 }
 
 .insurance-div {
-  padding: 20px;
+  margin: 0 5vw;
   background-color:#FAF0D7;
 
 }
@@ -27,6 +28,7 @@ padding: 50px;
 
 .landingpage {
   display: flex;
+  padding: 0 5vw;
 }
 
 .landing-image {
@@ -90,6 +92,7 @@ padding: 50px;
 
 .video {
   position: relative;
+  padding: 0 5vw;
   height: 95vh;
   width: 99vw;
   overflow: hidden;
