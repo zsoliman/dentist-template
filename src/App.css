@@ -4,22 +4,29 @@
   text-align: center;
 }
 
-.photo {
-  height: 80vh;
-  width: auto;
+.contact {
+  padding: 20px;
+}
+
+.insurance{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.insurance-div {
+  padding: 20px;
+  background-color:#FAF0D7;
+
+}
+
+.insurance-img {
+width: 15vw;
+padding: 50px;
 }
 
 .landingpage {
   display: flex;
-}
-
-.title {
-  /* display: flex; */
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  z-index: +10;
 }
 
 .landing-image {
@@ -67,9 +74,23 @@
   margin-right: 20vw;
 }
 
+.photo {
+  height: 80vh;
+  width: auto;
+}
+
+.title {
+  /* display: flex; */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: +10;
+}
+
 .video {
   position: relative;
-  height: 100vh;
+  height: 95vh;
   width: 99vw;
   overflow: hidden;
   object-fit: fill;

@@ -17,9 +17,6 @@ const LandingPage = () => {
           <source src={tooth} type="video/mp4" />
         </video>
 
-
-
-
       <div className="landingpage">
         <div>
           <div className="landing-image">
@@ -66,7 +63,7 @@ const LandingPage = () => {
         </div>
 
         <div className="landing-text-3">
-          <h2>Other Services You Provide</h2>
+          <h2>More Services You Provide</h2>
           <h4>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
             dicta fugiat autem inventore, at aspernatur pariatur fuga quaerat
@@ -74,6 +71,27 @@ const LandingPage = () => {
             ipsum accusantium enim eius.
           </h4>
         </div>
+      </div>
+
+      <div className="insurance-div">
+        <h1>Insurances We Accept</h1>
+        <h3>We accept most major insurance providers</h3>
+        <div className="insurance">
+        
+        <img className="insurance-img" src="https://millbridgedentistry.com/wp-content/uploads/2021/06/united-healthcare-logo-millbridge-dentistry.png" />
+        <img className="insurance-img" src='https://millbridgedentistry.com/wp-content/uploads/2021/06/anthem-millbridge-dentistry.svg' />
+        <img className="insurance-img" src="	https://millbridgedentistry.com/wp-content/uploads/2021/06/cigna-logo-millbridge-dentistry.png" />
+      
+        </div>
+      </div>
+
+      <div className="contact">
+        <h1>Contact Us Today!</h1>
+        <h3>(999)999-9999</h3>
+        <h3>We're located at</h3>
+        <h3>123-56 Main Street</h3>
+        <h3>Brooklyn, NY</h3>
+        <h3>11234</h3>
       </div>
 
       </div>
