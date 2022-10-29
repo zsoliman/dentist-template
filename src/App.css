@@ -2,6 +2,7 @@
 
 .App {
   text-align: center;
+  font-family: 'Montserrat Alternates', sans-serif;
 }
 
 .contact {
@@ -85,7 +86,7 @@ padding: 50px;
   align-items: center;
   justify-content: space-around;
   opacity: 97%;
-  background-color: #F4BFBF;
+  background-color: #fdf3e9;
   z-index: 5;
 }
 
