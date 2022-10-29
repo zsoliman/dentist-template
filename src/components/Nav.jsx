@@ -1,7 +1,7 @@
 const Nav = () => {
     return (
         <div className="navbar">
-            <p>YOUR LOGO HERE</p>
+            <h3>YOUR LOGO HERE</h3>
             <p>Home</p>
             <p>Services</p>
             <p>Products</p>
