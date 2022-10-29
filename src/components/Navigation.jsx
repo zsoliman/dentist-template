@@ -4,9 +4,9 @@ import { Navbar, Nav } from "rsuite";
 
 const Navigation = () => {
   return (
-    <Navbar style={{
+    <Navbar
+      style={{
       padding: '0 5vw',
-      backgroundColor: 'white',
       position: 'fixed',
       width: '100vw',
       height: '8vh',

@@ -17,6 +17,7 @@
 
 .insurance-div {
   margin: 0 5vw;
+  padding-top: 2vh;
   background-color:#FAF0D7;
 
 }
@@ -76,6 +77,22 @@ padding: 50px;
   margin-right: 20vw;
 }
 
+.navbar {
+  position: fixed;
+  display: flex;
+  height: 8vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: space-around;
+  opacity: 97%;
+  background-color: #F4BFBF;
+  z-index: 5;
+}
+
+.navbar p:hover {
+  cursor: pointer;
+}
+
 .photo {
   height: 80vh;
   width: auto;
@@ -87,11 +104,12 @@ padding: 50px;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  z-index: +10;
+  z-index: +1;
 }
 
 .video {
   position: relative;
+  top: 8vh;
   padding: 0 5vw;
   height: 95vh;
   width: 99vw;
@@ -99,4 +117,13 @@ padding: 50px;
   object-fit: fill;
   opacity: 70%;
   z-index: -10;
+}
+
+@media only screen and (max-width: 768px) {
+
+
+  .video {
+    top: 20vh;
+  }
+
 }
