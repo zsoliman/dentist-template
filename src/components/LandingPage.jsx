@@ -5,21 +5,21 @@ import dentist from "../media/dentist.jpg";
 
 const LandingPage = () => {
   return (
-    
-    <div>
-        
-      <div className="title">
+
+    <div className="row">
+
+      <div className="title col-6 col-s-9">
         <h1>Your Office Name</h1>
         <h3>"Your Slogan, because teeth are teeth"</h3>
       </div>
-      
-      <div className="video-div">
+
+      {/* <div className="video-div">
         <video className="video" autoPlay loop muted>
           <source src={tooth} type="video/mp4" />
         </video>
-      </div>
+      </div> */}
 
-      <div className="landingpage">
+      {/* <div className="landingpage">
         <div>
           <div className="landing-image">
             <img className="photo" alt="closeup" src={closeup} />
@@ -54,10 +54,10 @@ const LandingPage = () => {
         <div className="landing-image">
           <img className="photo" alt="toothbrush" src={toothbrush} />
         </div>
-        
+
       </div>
 
-        <div className="landingpage">
+      <div className="landingpage">
         <div>
           <div className="landing-image">
             <img className="photo" alt="dentist" src={dentist} />
@@ -79,11 +79,11 @@ const LandingPage = () => {
         <h1>Insurances We Accept</h1>
         <h3>We accept most major insurance providers</h3>
         <div className="insurance">
-        
-        <img className="insurance-img" src="https://millbridgedentistry.com/wp-content/uploads/2021/06/united-healthcare-logo-millbridge-dentistry.png" />
-        <img className="insurance-img" src='https://millbridgedentistry.com/wp-content/uploads/2021/06/anthem-millbridge-dentistry.svg' />
-        <img className="insurance-img" src="	https://millbridgedentistry.com/wp-content/uploads/2021/06/cigna-logo-millbridge-dentistry.png" />
-      
+
+          <img className="insurance-img" src="https://millbridgedentistry.com/wp-content/uploads/2021/06/united-healthcare-logo-millbridge-dentistry.png" />
+          <img className="insurance-img" src='https://millbridgedentistry.com/wp-content/uploads/2021/06/anthem-millbridge-dentistry.svg' />
+          <img className="insurance-img" src="	https://millbridgedentistry.com/wp-content/uploads/2021/06/cigna-logo-millbridge-dentistry.png" />
+
         </div>
       </div>
 
@@ -94,10 +94,10 @@ const LandingPage = () => {
         <h3>123-56 Main Street</h3>
         <h3>Brooklyn, NY</h3>
         <h3>11234</h3>
-      </div>
+      </div> */}
 
-      </div>
-      
+    </div>
+
   );
 };
 
