@@ -6,7 +6,7 @@ import dentist from "../media/dentist.jpg";
 const LandingPage = () => {
   return (
 
-    <div className="row">
+    <div>
 
       <div className="title col-6 col-s-9">
         <h1>Your Office Name</h1>

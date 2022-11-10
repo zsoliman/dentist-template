@@ -1,11 +1,13 @@
 const Nav = () => {
     return (
-        <div className="navbar">
+        <div className="navbar col-s-12">
             <h3>YOUR LOGO HERE</h3>
-            <p>Home</p>
-            <p>Services</p>
-            <p>Products</p>
-            <p>About</p>
+            <div className="navMenu">
+                <p>Home</p>
+                <p>Services</p>
+                <p>Products</p>
+                <p>About</p>
+            </div>
         </div>
     )
 }
