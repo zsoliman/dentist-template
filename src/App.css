@@ -2,7 +2,7 @@
 
 .App {
   text-align: center;
-  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: #fdf3e9;
 
 }
@@ -15,8 +15,6 @@
 .insurance-div {
   margin: 0 1vw;
   padding: 20px;
-
-
 }
 
 .insurance-img {
@@ -112,9 +110,9 @@
   z-index: 2;
 }
 
-.navbar li:hover {
+.navbar p:hover {
   cursor: pointer;
-  border-bottom: solid 2px #8CC0DE;
+  /* border-bottom: solid 2px #8CC0DE; */
 }
 
 .navMenu {
@@ -150,7 +148,7 @@
 
 .title {
   position: relative;
-  padding: 10vh;
+  padding: 10vh 10vh 0 10vh;
 }
 
 .video-div {
@@ -314,6 +312,7 @@
     top: 88vh;
     display: flex;
     width: 100%;
+    padding-top: 10vh;
   }
 
   .insurance-div {
