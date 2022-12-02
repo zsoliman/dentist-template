@@ -6,6 +6,8 @@ import Menu from "./components/Menu";
 import LandingPage from "./components/LandingPage";
 import Services from "./components/Services";
 import Products from "./components/Products";
+import About from "./components/About";
+import Insurance from "./components/Insurance";
 
 const App = () => {
 
@@ -58,7 +60,6 @@ const App = () => {
 
       <LandingPage
         homeRef={homeRef}
-        aboutRef={aboutRef}
       />
 
       <Services
@@ -68,6 +69,12 @@ const App = () => {
       <Products
         productsRef={productsRef}
       />
+
+      <About
+        aboutRef={aboutRef}
+      />
+      <Insurance />
+
 
     </div>
   );
