@@ -5,7 +5,6 @@ const Nav = ({ handleHomeClick, handleServicesClick, handleProductsClick, handle
         <div className="navbar col-s-12">
             <h3
                 onClick={handleHomeClick}
-                style={{ cursor: 'pointer' }}
             >YOUR LOGO HERE</h3>
 
             <div className="navMenu">

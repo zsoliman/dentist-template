@@ -112,6 +112,11 @@
   z-index: 2;
 }
 
+.navbar h3 {
+  cursor: pointer;
+  margin: 0 8em;
+}
+
 .navbar p:hover {
   cursor: pointer;
   /* border-bottom: solid 2px #8CC0DE; */
@@ -122,8 +127,7 @@
 }
 
 .navMenu p {
-  padding: 8px;
-  margin: 7px;
+  padding: 10px 50px;
   background-color: #33b5e5;
   color: #ffffff;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
@@ -316,9 +320,9 @@
     transform: translate(-50%, -50%);
   }
 
-  /* .title h1 {
-    padding-top: 10vh;
-  } */
+  .title h1 {
+    padding-top: 0;
+  }
 
 
   .landingpage {
