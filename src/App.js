@@ -4,6 +4,7 @@ import React, { useRef, useEffect } from "react";
 import Nav from "./components/Nav";
 import Menu from "./components/Menu";
 import LandingPage from "./components/LandingPage";
+import Services from "./components/Services";
 
 const App = () => {
 
@@ -54,9 +55,12 @@ const App = () => {
       />
       <LandingPage
         homeRef={homeRef}
-        servicesRef={servicesRef}
         productsRef={productsRef}
         aboutRef={aboutRef}
+      />
+
+      <Services
+        servicesRef={servicesRef}
       />
     </div>
   );
