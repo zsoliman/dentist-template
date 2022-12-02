@@ -14,7 +14,6 @@ const App = () => {
 
   const handleHomeClick = () => {
     homeRef.current.scrollIntoView({ behavior: "smooth" });
-    console.log('handleHomeClick')
   };
   const handleServicesClick = () => {
     servicesRef.current.scrollIntoView({ behavior: "smooth" });

@@ -45,6 +45,8 @@
   width: auto;
   background-color: #8CC0DE;
   z-index: 1;
+  /* margin for scroll effect */
+
 }
 
 .landing-text-2 {
@@ -148,7 +150,6 @@
 
 .title {
   position: relative;
-  padding: 10vh 10vh 0 10vh;
 }
 
 .video-div {
@@ -177,6 +178,12 @@
   width: 100%;
   float: left;
   /* padding: 15px; */
+}
+
+@media only screen and (max-width: 599px) {
+  .title h1 {
+    padding-top: 10vh;
+  }
 }
 
 @media only screen and (min-width: 600px) {
@@ -234,9 +241,11 @@
     position: relative;
     left: 50vw;
     transform: translate(-50%);
-
   }
 
+  .title h1 {
+    padding-top: 10vh;
+  }
 
 
 }
@@ -307,12 +316,21 @@
     transform: translate(-50%, -50%);
   }
 
+  /* .title h1 {
+    padding-top: 10vh;
+  } */
+
+
   .landingpage {
     position: relative;
     top: 88vh;
     display: flex;
     width: 100%;
-    padding-top: 10vh;
+    /* padding-top: 10vh; */
+  }
+
+  .landing-text-1 {
+    margin-top: 10vh;
   }
 
   .insurance-div {

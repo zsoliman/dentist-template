@@ -24,15 +24,16 @@ const LandingPage = ({ homeRef, servicesRef, productsRef, aboutRef }) => {
         <div>
 
           <img
+            /* padding for scroll effect */
             style={{ paddingTop: '10vh' }}
             ref={servicesRef}
-            className="photo col-8"
+            className="photo col-12"
             alt="closeup"
             src={closeup} />
 
         </div>
 
-        <div className="landing-text-1 col-4">
+        <div className="landing-text-1 col-12">
           <h2>Service You Provide</h2>
           <h4>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
@@ -62,7 +63,10 @@ const LandingPage = ({ homeRef, servicesRef, productsRef, aboutRef }) => {
         </div>
 
         <div className="landing-image photo-small">
-          <img className="photo col-7" alt="toothbrush" src={toothbrush} />
+          <img
+            className="photo col-7"
+            alt="toothbrush"
+            src={toothbrush} />
         </div>
 
       </div>
@@ -70,7 +74,10 @@ const LandingPage = ({ homeRef, servicesRef, productsRef, aboutRef }) => {
       <div className="landingpage">
         <div>
           <div className="landing-image">
-            <img className="photo col-7" alt="dentist" src={dentist} />
+            <img
+              className="photo col-12"
+              alt="dentist"
+              src={dentist} />
           </div>
         </div>
 
