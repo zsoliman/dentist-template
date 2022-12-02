@@ -5,6 +5,7 @@ import Nav from "./components/Nav";
 import Menu from "./components/Menu";
 import LandingPage from "./components/LandingPage";
 import Services from "./components/Services";
+import Products from "./components/Products";
 
 const App = () => {
 
@@ -46,6 +47,7 @@ const App = () => {
         handleProductsClick={handleProductsClick}
         handleAboutClick={handleAboutClick}
       />
+
       <Menu
         handleHomeClick={handleHomeClick}
         handleServicesClick={handleServicesClick}
@@ -53,15 +55,20 @@ const App = () => {
         handleAboutClick={handleAboutClick}
         homeRef={homeRef}
       />
+
       <LandingPage
         homeRef={homeRef}
-        productsRef={productsRef}
         aboutRef={aboutRef}
       />
 
       <Services
         servicesRef={servicesRef}
       />
+
+      <Products
+        productsRef={productsRef}
+      />
+
     </div>
   );
 }

@@ -2,7 +2,7 @@ import tooth from "../media/tooth.mp4";
 import xray from "../media/xray.jpg";
 
 
-const LandingPage = ({ homeRef, servicesRef, productsRef, aboutRef }) => {
+const LandingPage = ({ homeRef, aboutRef }) => {
   return (
 
     <div ref={homeRef}>
@@ -17,13 +17,6 @@ const LandingPage = ({ homeRef, servicesRef, productsRef, aboutRef }) => {
           <source src={tooth} type="video/mp4" />
         </video>
       </div> */}
-
-
-
-      <div ref={productsRef} className='landingpage'>
-        <h1 style={{ paddingTop: '10vh' }}>Products Div</h1>
-      </div>
-
 
 
       <div ref={aboutRef} className="contact">
